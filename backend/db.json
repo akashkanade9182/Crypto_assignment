@@ -1,0 +1,67 @@
+[
+     {
+          "id": 1,
+          "name": "Akash kanade",
+          "createdOn": "3/04/2023",
+          "gender": "male",
+          "dob": "22/12/1995",
+          "city": "pune",
+          "state": "maharashtra",
+          "pincode": "411032",
+          "modifiedOn": "3/04/2023"
+     },
+     {
+          "id": 1,
+          "name": "Akash kanade",
+          "createdOn": "3/04/2023",
+          "gender": "male",
+          "dob": "22/12/1995",
+          "city": "pune",
+          "state": "maharashtra",
+          "pincode": "411032",
+          "modifiedOn": "3/04/2023"
+     },
+     {
+          "name": "Akash kanade",
+          "createdOn": "3/04/2023",
+          "gender": "male",
+          "dob": "22/12/1995",
+          "city": "pune",
+          "state": "maharashtra",
+          "pincode": "411032",
+          "modifiedOn": "3/04/2023",
+          "id": 3
+     },
+     {
+          "name": "Akash kanade",
+          "createdOn": "3/04/2023",
+          "gender": "male",
+          "dob": "22/12/1995",
+          "city": "pune",
+          "state": "maharashtra",
+          "pincode": "411032",
+          "modifiedOn": "3/04/2023",
+          "id": 4
+     },
+     {
+          "name": "Akash kanade",
+          "createdOn": "3/04/2023",
+          "gender": "male",
+          "dob": "22/12/1995",
+          "city": "pune",
+          "state": "maharashtra",
+          "pincode": "411032",
+          "modifiedOn": "3/04/2023",
+          "id": 5
+     },
+     {
+          "name": "ramesh",
+          "modifiedOn": "03/04/2023"
+     },
+     {
+          "name": "ramesh",
+          "id": 6,
+          "createdOn": "3/04/2023",
+          "modifiedOn": "03/04/2023"
+     }
+]
