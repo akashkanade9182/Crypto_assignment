@@ -8,22 +8,7 @@
           justify-content: space-between;
           padding: 0 15px;
      }
-     /* table{
-         width: 100%; 
-         margin: auto;
-         table-layout:fixed;
-         overflow: hidden;
-         overflow-x: scroll;
-     }
-     
-     th{
-          font-size:30px;
-          text-align: left;
-          padding: 0 10px;
-          color:#b7b7b7;
-          font-weight: 600;
-          border: 1px solid black;
-     } */
+    
      .tablebox{
           width: 95%;
           margin: auto;
@@ -61,7 +46,7 @@
      }
      .card{
           font-size: 25px;
-          height:65px;
+          height:90px;
           display: flex;
           
           flex-direction: column;
@@ -75,7 +60,7 @@
      }
      .iconcard{
           width: 100%;
-          height:80px;
+          height:82px;
           margin-top: 30px;
           border-radius: 20px;
      }
