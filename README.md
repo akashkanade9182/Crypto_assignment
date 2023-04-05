@@ -1,7 +1,11 @@
 ## Bankaccount/backend
-##
+## Calculation 
+#commond
+ex-:node Calc.js what is 5 plus 7
 
-it is a clone of Instagram social media app, here you can create photogallary, post,profile,follow to friend ,likes or dislikes to post
+
+
+
 
 # Demo link :  https://instaclonetrial.netlify.app
 
