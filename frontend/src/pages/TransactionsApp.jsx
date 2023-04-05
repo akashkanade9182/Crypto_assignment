@@ -54,7 +54,7 @@ const TransactionsApp = () => {
               </div>
         </div>
       </div>
-      <div className='cards'>
+      <div className='cards' >
           <div>
             <img className="avatar" src="https://bit.ly/prosper-baba" alt="" />
 

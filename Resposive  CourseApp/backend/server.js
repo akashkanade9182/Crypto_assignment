@@ -10,7 +10,7 @@ app.use(cors({
      origin : "*"
  }))
 
- app.use("/",CourseRoute);
+ app.use("/getcourse",CourseRoute);
 
  app.listen(7000,async()=>{
      try{

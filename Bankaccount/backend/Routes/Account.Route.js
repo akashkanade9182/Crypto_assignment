@@ -95,4 +95,4 @@ accountRouter.delete('/delete/:id',async(req,res)=>{
 })
 
 
-module.exports=accountRouter
+module.exports=accountRouter;
