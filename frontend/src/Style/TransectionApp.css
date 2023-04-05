@@ -1,0 +1,77 @@
+.transectionapp{
+     width: 100%;
+     background-color: #f5f4f9;
+}
+.nav{
+     display: flex;
+     justify-content: space-between;
+     padding:15px 15px;
+     font-weight: 500;
+    
+}
+.nav h1{
+     font-weight: 500;
+}
+.card{
+   width:90% ;
+   height: 300px;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border:1px solid red
+ 
+}
+.avatar{
+     width: 100px;
+     height:100px;
+     border-radius: 50%;
+}
+.firstbox{
+     width: 40%;
+     height:100px;
+     /* border: 1px solid red; */
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.firstbox>div{
+     text-align: left;
+}
+.secondbox{
+     display: flex;
+     width: 40%;
+     justify-content: space-around;
+     align-items: center;
+}
+.secondbox>div:first-child{
+     color:#13b813;
+     font-size: 25px;
+     font-weight: bold;
+}
+
+@media only screen and (max-width: 734px){
+    .firstbox{
+     flex-direction: column;
+     text-align: start;
+     align-items: start;
+     margin-left: 20px;
+    }
+    .secondbox{
+     width:50%;
+    }
+ }
+ @media only screen and (max-width: 622px){
+     .firstbox{
+      flex-direction: column;
+      text-align: start;
+      align-items: start;
+      margin-left: 20px;
+     }
+     .secondbox{
+      width:50%;
+      flex-direction: column;
+      align-items: end;
+     }
+  }
+

@@ -1,0 +1,37 @@
+[
+     {
+          "name":"Basic Algorithm",
+          "lessons":25,
+          "startDate":"27 Jan 2023",
+          "duration":"14h 38m 56s",
+          "completed":10
+     },
+     {
+          "name":"Web Development",
+          "lessons":45,
+          "startDate":"23 Feb 2023",
+          "duration":"36h 38m 56s",
+          "completed":40
+     },
+     {
+          "name":"Basic Data Science",
+          "lessons":37,
+          "startDate":"14 Jan 2023",
+          "duration":"37h 38m 56s",
+          "completed":9
+     },
+     {
+          "name":"UI/UX Design",
+          "lessons":32,
+          "startDate":"19 Feb 2023",
+          "duration":"16h 38m 56s",
+          "completed":26
+     },
+     {
+          "name":"Project Management",
+          "lessons":45,
+          "startDate":"27 Jan 2023",
+          "duration":"13h 38m 56s",
+          "completed":14
+     }
+]

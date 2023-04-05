@@ -1,0 +1,221 @@
+.homescreen {
+     width: 100%;
+     margin: auto;
+     margin-top: 20px;
+
+}
+
+.nav {
+     width: 90%;
+     margin: auto;
+     height: 60px;
+     padding: 0 10px;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     /* background-color: #CACACA; */
+     border-radius: 30px;
+}
+
+.logobtn {
+     background-color: black;
+     color: white;
+     font-size: 20px;
+     border-radius: 10px;
+     padding: 5px 10px;
+}
+
+.navfeature {
+     display: flex;
+     width: 70%;
+     justify-content: space-between;
+}
+
+.searchbox {
+     display: flex;
+     align-items: center;
+     width: 60%;
+}
+
+.searchbox>input {
+     width: 95%;
+     height: 40px;
+     border-radius: 10px;
+     padding-left: 10px;
+     border: transparent;
+}
+/***********tagbox**********************/
+.tagbox{
+     width: 90%;
+     margin: auto;
+     margin-top: 15px;
+     display: flex;
+     padding :0 10px
+}
+.tagbtn{
+     background-color: blue;
+     color:white;
+     font-size: 20px;
+     padding: 0 10px;
+     margin-left: 10px;
+     border-radius: 15px;
+}
+/**************headingbox********************/
+.headingbox{
+   width: 70%;
+   margin: auto;
+   text-align: center;
+   /* display: flex; */
+   justify-content: space-around;
+   align-items: center;  
+}
+.headingbox>h4{
+     font-size: 15px;
+}
+.bottombtnbox{
+     width: 60%;
+     margin: auto;
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-around;
+}
+.bottombtnbox>button{
+     width: auto;
+     font-size: 18px;
+     padding: 5px 10px;
+}
+.signupbtn{
+     background-color: transparent;
+     color:black;
+     border:2px solid black;
+     border-radius: 10px;
+}
+.explorebtn{
+     background-color: black;
+     color:white;
+     border-radius: 10px;
+}
+.gradientbox{
+     width: 90%;
+   
+     margin: auto;
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+}
+.playbox{
+     width: 60%;
+     margin: auto;
+     height: 350px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     border-radius: 35px;
+     background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 6%, rgba(252,70,107,1) 100%);
+}
+.playbtn{
+     width: 70px;
+     height: 70px;
+     font-size: 18px;
+     color:white;
+     border: none;
+     border-radius: 50%;
+     background: rgba(255,255,255,0.5);
+     backdrop-filter: blur(10px);
+}
+.percentagebox{
+     width: 60%;
+     height:40px;
+     margin: auto;
+     display: flex;
+     margin-top: 20px;
+     border-radius: 15px;
+}
+.percentagebox>div:first-child{
+     width: 72%;
+     height: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color:white;
+     background-color:rgb(63,94,251) ;
+}
+.percentagebox>div:last-child{
+     width: 28%;
+     height: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color:white;
+     background-color:black ;
+     color:white;
+}
+
+
+
+@media only screen and (max-width: 435px){
+	.headingbox{
+          width: 85%;
+          text-align: left;
+          padding: 0;
+     }
+     .headingbox>h1{
+          font-size: 35px;
+     }
+     
+     .headingbox>h4{
+          font-size: 16px;
+     }
+     .bottombtnbox{
+          width: 80%;
+          margin: auto;
+          margin-top: 20px;
+          flex-direction: column;
+     }
+     .bottombtnbox>button{
+          width: 95%;
+          height: 40px;
+     }
+     .explorebtn{
+          margin-top: 20px;
+     }
+     .gradientbox{
+          flex-direction: row;
+          height: 150px;
+
+     }
+     .playbox{
+          height:100%;
+          width: 70%;
+     }
+     .percentagebox{
+          width: 20%;
+          height:100%;
+          margin-top: 0px;
+           border:1px solid blue;
+          
+          flex-direction: column;
+     }
+     .percentagebox>div:first-child{
+          width: 100%;
+          height: 78%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          color:white;
+          background-color:rgb(63,94,251) ;
+     }
+     .percentagebox>div:last-child{
+          width: 100%;
+          height: 28%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          color:white;
+          background-color:black ;
+          color:white;
+     }
+     
+}

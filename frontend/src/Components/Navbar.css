@@ -1,0 +1,43 @@
+.navbar{
+     width: 100%;
+     margin: auto;
+     margin: auto;
+     top:20px;
+     height: 60px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color:white;
+     font-weight: bold;
+     font-family: sans-serif;
+     background:linear-gradient(to right,rgb(123, 123, 254),rgb(185, 185, 249));
+}
+.navlinks{
+     color:white;
+     font-weight: bold;
+     font-size: 20px;
+     text-decoration: none;
+     text-decoration-line: none;
+}
+
+@media only screen and (max-width: 582px){
+	.navbar{
+          display: none;
+     }
+}
+
+@media only screen and (max-width: 360px){
+	.nav h1{
+          font-weight: 500;
+          font-size: 25px;
+     }
+     .avatar{
+          width: 80px;
+          height:80px;
+          border-radius: 50%;
+     }
+     .firsbox>div{
+          font-size: 20px;
+     }
+}
