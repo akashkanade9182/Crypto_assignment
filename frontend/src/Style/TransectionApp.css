@@ -35,15 +35,34 @@
 .firstbox{
      width: 40%;
      font-size: 25px;
-     /* border: 1px solid red; */
      display: flex;
-     flex-direction:column ;
+     flex-direction: column;
+
      justify-content: space-around;
      align-items: start;
 }
 .firstbox>div{
      text-align: left;
      height: fit-content;
+}
+.firstbox>div:first-child{
+     font-weight: bold;
+     font-size: 28px;
+}
+.firstbox>div:last-child{
+     width: fit-content;
+     display: flex;
+     align-items: start;
+     color:grey;
+}
+.firstbox>div:last-child>h1{
+     font-size: 23px;
+     font-weight: 400;
+}
+.firstbox>div:last-child>h1:last-child{
+     font-size: 23px;
+     font-weight: 400;
+     margin-left: 30px;
 }
 .secondbox{
      display: flex;
@@ -59,24 +78,34 @@
      font-weight: bold;
 }
 
+
+
 @media only screen and (max-width: 734px){
     .firstbox{
+     width: 60%;
      flex-direction: column;
      text-align: start;
      align-items: start;
      margin-left: 20px;
     }
+    .firstbox>div:last-child{
+     width: 100%;
+     display: flex;
+     align-items: start;
+     color:grey;
+}
     .secondbox{
      width:50%;
     }
  }
- @media only screen and (max-width: 622px){
+ @media only screen and (max-width: 624px){
      .avatar{
           width: 80px;
      height:80px;
      border-radius: 50%;  
      }
      .firstbox{
+          width: 90%;
       flex-direction: column;
       text-align: start;
       font-size: 18px;
@@ -84,8 +113,28 @@
       margin-left: 20px;
 
      }
+
+     .firstbox>div:last-child{
+          width: 100%;
+          display: flex;;
+          flex-direction: column;
+          align-items: start;
+          color:grey;
+          text-align: center;
+          align-items: start;
+     }
+     .firstbox>div:last-child>h1:first-child{
+          font-size: 16px;
+     }
+     .firstbox>div:last-child>h1:last-child{
+          margin-left: 0;
+     }
+     .firstbox>div:last-child>h1:last-child{
+          font-size: 16px;
+          
+     }
      .secondbox{
-      width:50%;
+      width:40%;
        flex-direction: column;
       text-align: start;
       font-size: 18px;

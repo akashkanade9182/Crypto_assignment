@@ -15,10 +15,12 @@ const TransactionsApp = () => {
           </div>
           <div className='firstbox'>
               <div>
-                28 Feb 2023
+              Aokiji
               </div>
               <div>
-                06.23PM
+                <h1> 28 Feb 2023</h1>
+                <h1> 06.23PM</h1>
+               
               </div>
 
           </div>
@@ -38,10 +40,12 @@ const TransactionsApp = () => {
           </div>
           <div className='firstbox'>
               <div>
-                28 Feb 2023
+               Kizaru
               </div>
               <div>
-                06.23PM
+                <h1> 28 Feb 2023</h1>
+                <h1>  06.23PM</h1>
+              
               </div>
 
           </div>
@@ -61,10 +65,12 @@ const TransactionsApp = () => {
           </div>
           <div className='firstbox'>
               <div>
-                28 Feb 2023
+               akainu
               </div>
               <div>
-                06.23PM
+                <h1> 28 Feb 2023</h1>
+                <h1> 06.23PM</h1>
+               
               </div>
 
           </div>
