@@ -5,9 +5,9 @@ const accountRouter = express.Router();
 
 
 
-accountRouter.get('/',async(req,res)=>{
+accountRouter.get('/:id',async(req,res)=>{
     try{
-        const account =await AccountModel.find()
+        const account =await AccountModel.find({"_id":id})
       return  res.status(200).send(account)
     }catch(err){
        return res.status(400).send(err)
@@ -70,17 +70,19 @@ accountRouter.patch('/transfer/:id',async(req,res)=>{
     }
 })
 
-accountRouter.post('/:id',async(req,res)=>{
+accountRouter.patch('/updateaccount/:id',async(req,res)=>{
     const id=req.params.id
     const payload = req.body
     try{
-       const person =  await AccountModel.findById({"_id":id})
-       person.account.push(payload)
-       person.save()
-        res.status(200).send({"msg":"added the account Successfuly!","account":person.account})
+     await AccountModel.findByIdAndUpdate({ _id: id }, payload, {
+               new: true
+          })
+
+   
+      return  res.status(200).send({"msg":"update account Successfuly!"})
 
     }catch(err){
-        res.status(400).send(err)
+      return  res.status(400).send(err)
     }
 })
 accountRouter.delete('/delete/:id',async(req,res)=>{
