@@ -9,7 +9,7 @@
 -output ;-  60 divided by  7 is 5
 
 - input :-node Calc.js what is  60 multiply  by  7 
-- output ;-  60 divided by  7 is 420
+- output ;-  60 multiply  by  7 is 420
 
 # Operator list 
 - 1) "plus"
