@@ -1,38 +1,53 @@
 ## Bankaccount/backend
-## Calculation 
-#commond
-ex-:node Calc.js what is 5 plus 7
+
+
+
+# Deploy link :  https://rich-erin-sturgeon-suit.cyclic.app/bankaccount
 
 
 
 
+## Routes
 
-# Demo link :  https://instaclonetrial.netlify.app
+1) openAccount -
+- route;-  /openaccount
+- method:- POST
+- data :- {name, gender, dob, email, mobile, address, initialBalance, adhar, pan}
 
-# Individual Project
+2) deposite money -
+- route;- /deposit/userId
+- method:- PATCH
+- data :- {amount}
 
-
-## Tech Stack
-
-**Client:** React, Redux, Chakra-Ui
-
-**Server:** Node, Express, Mongoose, MongoDB
-
-
-## Features
-
-- Login/Signup Page
-- Create post by uploading images
-- Set Profile picture
-- follow or unfollow to other user
-- Like or Dislike to post
-- Commnenting on post
-- View all Commnets
- 
+3) wothdraw  money -
+- route;-/withdraw/userId
+- method:- PATCH
+- data :- {amount}
 
 
+4) Trandfer   money -
+- route;-/transfer/userId
+- method:- PATCH
+- data :- {amount,toName}
+
+5) delete account -
+- route;-/delete/userId
+- method:- DELETE
 
 
+6)recieved   money -
+- route;-/transfer/userId
+- method:- PATCH
+- data :- {amount,toName}
 
-## Screenshots
-# 1) Homepage
+
+7)get statment  -
+- route;-/userId
+- method:- GET
+
+8)Update KYC -
+- route;-/updateaccount/useId
+- method:- PATCH
+- data :- {name, gender, dob, email, mobile, address, initialBalance, adhar, pan}
+
+
