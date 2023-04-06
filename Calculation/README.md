@@ -1,7 +1,7 @@
 
 ## Calculation 
 
-** commond ex
+**commond ex
 ** input :-node Calc.js what is 5 plus 7 
 ** output ;- 5 plus 7 is 12
 
